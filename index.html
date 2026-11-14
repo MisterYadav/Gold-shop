@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Aryan Golden Jewelers | न्यु आर्यन गोल्डेन ज्वेलर्स</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Mukta:wght@400;600;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Shop Status Notice Banner -->
+  <div id="shopStatusNotice" style="display: none; background: #8B0000; color: #FFD700; padding: 12px; text-align: center; font-weight: bold; border-bottom: 2px solid #D4AF37;"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="nepali-title">न्यु आर्यन गोल्डेन ज्वेलर्स</span>
+      <span class="eng-title">NEW ARYAN GOLDEN JEWELERS</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">HOME</a>
+      <a href="#gallery">GALLERY</a>
+      <a href="#service">SERVICE</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80');">
+    <div class="hero-content">
+      <p class="sub-tag">TRADITIONAL MITHILA & NEPALI JEWELRY</p>
+      <h1>伝統と気品が宿る、手作りの金銀ジュエリー</h1>
+      <p>Handcrafted Gold & Silver Treasures for Weddings & Festivals</p>
+      <a href="#gallery" class="btn-primary">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="section">
+    <h2 class="section-title">GALLERY</h2>
+    
+    <!-- Static Featured Collection -->
+    <div class="gallery-grid">
+      <div class="card">
+        <a href="photo 1.html">
+          <img src="./Rn jwellers/b.jpeg" alt="Potote Mala">
+        </a>
+        <div class="card-body">
+          <h3>Potote Mala (पोते माला) or Pearl Neckpiece</h3>
+        </div>
+      </div>
+      <div class="card">
+        <a href="photo 2.html">
+          <img src="./Rn jwellers/d.jpeg" alt="Tilhari Gold Ring">
+        </a>
+        <div class="card-body">
+          <h3>Red Tilhari / Potote Tilhari (तिलहरी)</h3>
+        </div>
+      </div>
+      <div class="card">
+        <a href="photo 3.html">
+          <img src="./Rn jwellers/j.jpeg" alt="Moti Mala">
+        </a>
+        <div class="card-body">
+          <h3>Moti Mala / Pearl Tilhari (मोती माला / सेतो पोते तिलहरी)</h3>
+        </div>
+      </div>
+      <div class="card">
+        <a href="photo 4.html">
+          <img src="./Rn jwellers/nathiya,tika.jpeg" alt="Jhumka Earrings">
+        </a>
+        <div class="card-body">
+          <h3>Jhumka & Nathiya (झुमका・नथिया)</h3>
+          <p>Bridal Earrings & Nose Rings</p>
+        </div>
+      </div>
+      <div class="card">
+        <a href="photo 5.html">
+          <img src="./Rn jwellers/e.jpeg" alt="Showroom Display">
+        </a>
+        <div class="card-body">
+          <h3>Jewelry Showroom Display / Bridal Collection (गहना सङ्कलन)</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dynamic Admin Uploads Container -->
+    <h3 style="color: var(--gold-bright); margin-top: 50px; margin-bottom: 20px; font-family: 'Cinzel', serif;">New Arrivals & Uploaded Collection</h3>
+    <div id="customerGallery" class="product-grid"></div>
+  </section>
+
+  <!-- SERVICE SECTION -->
+  <section id="service" class="section">
+    <h2 class="section-title">SERVICE</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Custom Goldsmithing (विशेष गहना निर्माण)</h3>
+        <p>We create bespoke gold and silver ornaments tailored to traditional Nepali & Mithila designs.</p>
+      </div>
+      <div class="service-item">
+        <h3>Repair & Polishing (मर्मत तथा सफाई)</h3>
+        <p>Professional resizing, restoration, and gold polishing services.</p>
+      </div>
+    </div>
+
+    <div class="faq-container">
+      <h3 class="sub-heading">FAQ (FREQUENTLY ASKED QUESTIONS)</h3>
+      <details>
+        <summary>How long does a custom order take?</summary>
+        <p>Depending on design complexity, custom crafted pieces take 1 to 3 weeks.</p>
+      </details>
+      <details>
+        <summary>Is the gold quality guaranteed?</summary>
+        <p>Yes, all our gold jewelry comes with 24K hallmark purity certification.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2 class="section-title">ABOUT</h2>
+    <div class="about-container">
+      <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=600&q=80" alt="Jewelry Shop Workshop">
+      <div class="about-text">
+        <p>New Aryan Golden Jewelers brings you authentic Mithila craftsmanship mixed with elegant modern designs. Every piece is handcrafted with high purity and care by experienced artisans.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
